@@ -4,8 +4,12 @@ html {
 nav {
     width: 100%;
     display: flex;
-    justify-content: ;
+    /* justify-content: space-between; */
     position: fixed;
+}
+nav a {
+    text-decoration: none;
+
 }
 header {
     display: flex;
@@ -18,8 +22,8 @@ header {
     color: white;
 }
 .logo {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
 }
 /* body {
     background-color: #EEEEEE;
@@ -37,6 +41,11 @@ header {
 .r_div {
     margin-top: 300px;
 }
+/* #button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 #about {
     display: flex;
     align-items: center;
@@ -54,24 +63,28 @@ header {
 @keyframes typing {
     from {width: 0}
 } */
-#about,#education, h4 {
+#about,#education,#experiances,#skills,#cert,#refs,#contact, h4 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #00ADB5;
     
 }
+#education,#refs,#contact {
+    display: flex;
+    flex-direction: column;
+}
 p {
     margin: 50px;
+    color: #393E46;
+}
+li {
     color: #393E46;
 }
 .card_sec {
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
-}
-.car_div {
-
 }
 .card {
     width: 450px;
@@ -80,7 +93,59 @@ p {
     height: 200px;
     width: 200px;
 }
-.lang_img {
+/* .lang_img {
     height: 100px;
     width: 100px;
+} */
+#experiances,#contact {
+    height: 100vh;
+}
+#cert {
+    height: 100vh;
+    background-color: #EEEEEE;
+}
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #393E46;
+  }
+#refs {
+    height: 100vh;
+}
+#mail_li {
+    color: #57A6A1;
+  }
+#no_li {
+    color: #E3651D;
+  }
+legend {
+    color: #EEEEEE;
+  }
+label {
+    color: #577B8D;
+  }
+fieldset {
+    /* border-width: 10px */
+}
+.align {
+    display: flex;
+    justify-content: center;
+    color: #EEEEEE;
+}
+.icon {
+    height: 35px;
+    width: 35px;
 }
