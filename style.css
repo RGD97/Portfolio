@@ -154,3 +154,7 @@ fieldset {
     height: 35px;
     width: 35px;
 }
+.align td {
+    width: auto;
+    color: #EEEEEE;
+}
