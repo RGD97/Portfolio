@@ -88,6 +88,7 @@ li {
 }
 .card {
     width: 450px;
+    height: 520px;
 }
 .c_img {
     height: 200px;
@@ -99,6 +100,10 @@ li {
 } */
 #experiances,#contact {
     height: 100vh;
+}
+td {
+    width: 350px;
+    color: #393E46;
 }
 #cert {
     height: 100vh;
