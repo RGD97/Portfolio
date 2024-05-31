@@ -67,9 +67,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #00ADB5;
-    
+    color: #00ADB5;    
 }
+/* #experiances {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+} */
 #education,#refs,#contact {
     display: flex;
     flex-direction: column;
@@ -89,6 +93,7 @@ li {
 .card {
     width: 450px;
     height: 520px;
+    text-align: center;
 }
 .c_img {
     height: 200px;
